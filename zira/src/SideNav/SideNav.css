@@ -1,0 +1,27 @@
+.sideNavContainer{
+    width:100px;
+    background-color: rgb(113 113 236);
+    position: fixed;
+    top:0;
+    bottom: 0;
+}
+
+.sideNavItemContainer{
+    margin-top: 200px;
+}
+
+.sideNavItem{
+    font-size: small;
+    color:white;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    margin:10px 0px;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.sideNavItem:hover{
+    background-color: rgb(148, 180, 250);
+}
